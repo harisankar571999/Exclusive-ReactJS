@@ -10,3 +10,25 @@ ul,
 ol {
   list-style: none;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'inter';
+    font-size: 14px;
+    src: url(./Components/Fonts/Inter/static/Inter_24pt-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'poppins-reg';
+    font-size: 14px;
+    src: url(/src/Components/Fonts/Poppins/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'inter-bold';
+    src: url(/src/Components/Fonts/Inter/static/Inter_24pt-Bold.ttf);
+  }
+}

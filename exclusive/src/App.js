@@ -1,10 +1,14 @@
 
 import './App.css';
-import TopHeader from './Components/Screens/TopHeader';
+import NavMenu from './Components/Screens/NavMenu';
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <>
-      <TopHeader/>
+    <Router>
+          <NavMenu/>
+    </Router>
+     
     </>
    
      

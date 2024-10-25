@@ -3,7 +3,14 @@ module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
       
-    extend: {},
+    extend: {
+      fontFamily:{
+        interReg:['"inter",san-serif'],
+        poppinReg:['"poppins-reg",san-serif'],
+        interBold:['"inter-bold",san-serif'],
+      }
+    },
+   
   },
   plugins: [],
 }
