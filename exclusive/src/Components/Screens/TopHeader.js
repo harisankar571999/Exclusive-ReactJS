@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router,Link} from 'react-router-dom'
 function TopHeader() {
   return (
-        <div className='bg-black w-screen  relative'>
+        <div className='bg-black   relative'>
             <div className='px-10'>
                 <div className='px-10'>
                     <div className='flex items-center'>

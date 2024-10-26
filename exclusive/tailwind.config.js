@@ -8,6 +8,7 @@ module.exports = {
         interReg:['"inter",san-serif'],
         poppinReg:['"poppins-reg",san-serif'],
         interBold:['"inter-bold",san-serif'],
+        interSemi:['"inter-semibold",san-serif'],
       }
     },
    

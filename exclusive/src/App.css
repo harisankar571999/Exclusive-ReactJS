@@ -31,4 +31,8 @@ ol {
     font-family: 'inter-bold';
     src: url(/src/Components/Fonts/Inter/static/Inter_24pt-Bold.ttf);
   }
+@font-face {
+    font-family: 'inter-semibold';
+    src: url(/src/Components/Fonts/Inter/static/Inter_28pt-SemiBold.ttf);
+  }
 }

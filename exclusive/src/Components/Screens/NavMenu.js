@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import TopHeader from './TopHeader'
+import AppleOffer from './AppleOffer'
 function NavMenu() {
   return (
         <>   
             <TopHeader/>
-            <div className='pt-14 pb-2 border-b border-solid'>
-                <div className='mx-auto w-11/12 flex items-center justify-between '>
+            <div className='pt-14 pb-2 border-b border-solid ' >
+                <div className='mx-auto w-[90%] flex items-center justify-between '>
                     <div>
                         <Link to={"/"}><h1 className='font-interBold text-2xl'>Exclusive</h1></Link>
                     </div>
@@ -34,6 +35,7 @@ function NavMenu() {
                     </div>
                 </div>
             </div>
+            <AppleOffer/>
         </>
   )
 }
