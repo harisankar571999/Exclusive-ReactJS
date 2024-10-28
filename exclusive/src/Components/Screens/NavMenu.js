@@ -5,7 +5,6 @@ import AppleOffer from './AppleOffer'
 function NavMenu() {
   return (
         <>   
-            <TopHeader/>
             <div className='pt-14 pb-2 border-b border-solid ' >
                 <div className='mx-auto w-[90%] flex items-center justify-between '>
                     <div>
@@ -35,7 +34,6 @@ function NavMenu() {
                     </div>
                 </div>
             </div>
-            <AppleOffer/>
         </>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router,Link} from 'react-router-dom'
 function TopHeader() {
   return (
+    <>
         <div className='bg-black   relative'>
             <div className='px-10'>
                 <div className='px-10'>
@@ -30,7 +31,7 @@ function TopHeader() {
                 </div>
             </div>   
         </div>
-
+    </>
   )
 }
 export default TopHeader

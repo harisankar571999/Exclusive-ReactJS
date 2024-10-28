@@ -35,4 +35,12 @@ ol {
     font-family: 'inter-semibold';
     src: url(/src/Components/Fonts/Inter/static/Inter_28pt-SemiBold.ttf);
   }
+  @font-face {
+    font-family: 'poppin-semibold';
+    src: url(/src/Components/Fonts/Poppins/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'poppin-med';
+    src: url(/src/Components/Fonts/Poppins/Poppins-Medium.ttf);
+  }
 }

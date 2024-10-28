@@ -1,4 +1,5 @@
 import React from 'react'
+import Category from './Category'
 
 function AppleOffer() {
   return (
@@ -19,7 +20,7 @@ function AppleOffer() {
               </div>
             </div>
           </div>
-          <div>
+          <div className='w-[610px] h-[460px]'>
             <img src={require('../Assets/hero_endframe__cvklg0xk3w6e_large 2.png')} alt="iPhone.png" />
           </div>
         </div>
