@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Products() {
    const renderProducts=()=>(
     Product.map(card=>(
-            <li className='w-[100%] flex flex-col gap-[16px] group'>
+            <li className='w-[100%] flex flex-col gap-[16px] group max-[1040px]:w-[300px]'>
                 <div className='relative'>
                     <div className='bg-[#F5F5F5] rounded-[4px] relative flex justify-center items-center h-[250px]'>
                         <div>
@@ -45,12 +45,12 @@ function Products() {
   return (
     <div>
         <div className='mt-[54px] mx-auto w-[90%] border-b-[1px] border-solid border-[rgba(0,0,0,0.2)] pb-[30px]'>
-            <ul className='grid grid-cols-4 gap-x-[30px]  gap-y-[60px]'>
+            <ul className='grid grid-cols-4 gap-x-[30px]  gap-y-[60px] max-[1040px]:flex max-[1040px]:flex-wrap max-[1040px]:justify-center'>
                {renderProducts()}
             </ul>
         </div>
         <div className='text-center mt-[30px]'>
-           <Link to={'/allproducts'}><button className='px-[48px] py-[16px] bg-[#db4444] rounded-[4px] text-[#fafafa] text-[16px] font-poppinMed'>View  All Products</button></Link>
+           <Link to={'/allproducts'}><button className='px-[48px] py-[16px] bg-[#db4444] rounded-[4px] text-[#fafafa] text-[16px] font-poppinMed max-[1000px]:px-[24px] max-[1000px]:py-[8px] max-[1000px]:text-[14px] '>View  All Products</button></Link>
         </div>
     </div>
     

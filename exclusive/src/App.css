@@ -44,3 +44,15 @@ ol {
     src: url(/src/Components/Fonts/Poppins/Poppins-Medium.ttf);
   }
 }
+@media(max-width:1060px) {
+  
+  .apple{
+    padding: 0px 0px 110px 0px;
+  }
+
+}
+@media(max-width:1280px){
+  .customer{
+    flex-wrap: wrap;
+  }
+}

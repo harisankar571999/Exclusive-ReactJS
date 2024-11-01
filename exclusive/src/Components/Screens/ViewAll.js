@@ -8,7 +8,7 @@ import Products from './Products'
 function ViewAll() {
 const renderProducts=()=>(
     View.map(card => (
-      <li className='w-[100%] flex flex-col gap-[16px] group'>
+      <li className='w-[100%] flex flex-col gap-[16px] group max-[1040px]:w-[300px]'>
         <div  className='relative'>
             <div className='bg-[#F5F5F5] rounded-[4px] relative flex justify-center items-center h-[250px]'>
                 <div>
@@ -56,7 +56,7 @@ const renderProducts=()=>(
           <span className='text-[#000]'>Products</span>
       </div>
        <div  className='mt-[40px] mx-auto w-[90%] pb-[50px]'>
-          <ul className='mt-[30px] grid grid-cols-4 gap-x-[30px]  gap-y-[60px]'>
+          <ul className='mt-[30px] grid grid-cols-4 gap-x-[30px]  gap-y-[60px] max-[1040px]:flex max-[1040px]:flex-wrap max-[1040px]:justify-center'>
                {renderProducts()}
           </ul>
        </div>

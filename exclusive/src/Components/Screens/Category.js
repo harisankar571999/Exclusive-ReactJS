@@ -8,7 +8,7 @@ function Category() {
     const renderItems = () => (
         Categories.map(item => {
             return (
-                <li key={item.id} className='w-[100%] h-[145px] border-[1px] border-[rgba(0,0,0,0.3)] border-solid rounded-[4px] flex items-center justify-center'>
+                <li key={item.id} className='w-[100%] h-[145px] border-[1px] border-[rgba(0,0,0,0.3)] border-solid rounded-[4px] flex items-center justify-center max-[1100px]:w-[170px] max-[1100px]:mt-[30px] '>
                     <div className='flex flex-col items-center gap-[16px]'>
                         <div>
                             <img src={item.img} alt={`${item.category}.svg`} />
@@ -27,7 +27,7 @@ function Category() {
                 </div>
                 <div className='font-interSemi text-[36px] mt-[28px]'>Browse By Category</div>
                 <div className='mt-[28px]'>
-                    <ul className='flex gap-x-[30px]'>
+                    <ul className='flex gap-x-[30px] max-[1100px]:flex-wrap max-[1100px]:items-center justify-center'>
                         {renderItems()}
                     </ul>
                 </div>

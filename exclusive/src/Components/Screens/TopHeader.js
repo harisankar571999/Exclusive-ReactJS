@@ -3,11 +3,11 @@ import {BrowserRouter as Router,Link} from 'react-router-dom'
 function TopHeader() {
   return (
     <>
-        <div className='bg-black   relative'>
+        <div className='bg-black   relative max-[650px]:pb-[20px]'>
             <div className='px-10'>
-                <div className='px-10'>
-                    <div className='flex items-center'>
-                        <div className='mx-auto text-white p-2 font-poppinReg text-sm'> 
+                <div className='pr-10 max-[900px]:pr-0 max-[700px]:pr-[10px]'>
+                    <div className='flex items-center max-[650px]:flex-col max-[650px]:gap-[10px]'>
+                        <div className='mx-auto text-white p-2 font-poppinReg text-sm  text-center'> 
                             Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <Link><b className='text-white underline font-poppinReg text-sm' >ShopNow</b></Link>
                         </div>
                         <div className='flex items-center flex-col' >
