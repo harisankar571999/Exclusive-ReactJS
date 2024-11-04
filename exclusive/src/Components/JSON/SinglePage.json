@@ -13,7 +13,7 @@
       "review":35,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -32,7 +32,7 @@
       "review":95,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -51,7 +51,7 @@
       "review":325,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -70,7 +70,7 @@
       "review":145,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -89,7 +89,7 @@
       "review":65,
       "color":"/Assets/red and red.png",
       "colorAlt":"red and red.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -108,7 +108,7 @@
       "review":95,
       "color":"/Assets/yellow and red.png",
       "colorAlt":"yellow and red.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -127,7 +127,7 @@
       "review":55,
       "color":"/Assets/red and black.png",
       "colorAlt":"red and black.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -146,7 +146,7 @@
       "review":55,
       "color":"/Assets/green and orange.png",
       "colorAlt":"green and orange.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -167,7 +167,7 @@
       "review":88,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":160,
       "offSpan":"",
       "colFlex":true
@@ -187,7 +187,7 @@
       "review":75,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":1160,
       "offSpan":"",
       "colFlex":true
@@ -207,7 +207,7 @@
       "review":325,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":400,
       "offSpan":"",
       "colFlex":true
@@ -226,7 +226,7 @@
       "review":145,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":170,
       "offSpan":"",
       "colFlex":true
@@ -245,7 +245,7 @@
       "review":35,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -264,7 +264,7 @@
       "review":95,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -283,7 +283,7 @@
       "review":325,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -302,7 +302,7 @@
       "review":145,
       "color":"",
       "colorAlt":"",
-      "colorDiv":"hidden",
+      "colorDiv":false,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -321,7 +321,7 @@
       "review":65,
       "color":"/Assets/red and red.png",
       "colorAlt":"red and red.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -340,7 +340,7 @@
       "review":95,
       "color":"/Assets/yellow and red.png",
       "colorAlt":"yellow and red.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -359,7 +359,7 @@
       "review":55,
       "color":"/Assets/red and black.png",
       "colorAlt":"red and black.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false
@@ -378,7 +378,7 @@
       "review":55,
       "color":"/Assets/green and orange.png",
       "colorAlt":"green and orange.png",
-      "colorDiv":"",
+      "colorDiv":true,
       "off":"",
       "offSpan":"hidden",
       "colFlex":false

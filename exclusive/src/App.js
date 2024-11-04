@@ -13,7 +13,8 @@ function App() {
           <Route  path="/" exact element={<Home/>} />
           <Route  path="home" exact element={<Home/>} />
           <Route  path="allproducts" exact element={<AllProducts/>}/>
-          <Route  path="product" exact element={<SinglePage/>}/>
+          <Route  path="product/:id" exact element={<SinglePage/>}/>
+          {/* <Route  path="allproducts/product/:id" exact element={<SinglePage/>}/> */}
         </Routes>
       </Router>
     </>
