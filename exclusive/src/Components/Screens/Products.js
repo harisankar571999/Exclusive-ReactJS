@@ -12,6 +12,7 @@ function Products({selectedState,setSelectedState}) {
     setLike(newLikes)
    }
 
+
    const filterProducts=selectedState ? Product.filter(item =>item.category===selectedState) : Product.slice(0,8)
    const container=useRef(null)
    useEffect(()=>{
@@ -44,7 +45,7 @@ function Products({selectedState,setSelectedState}) {
                     </svg>
                 </div>
                 <div className='absolute top-[60px] right-[12px]  bg-[#fff] w-[40px] h-[40px] rounded-[50%] flex items-center justify-center'>
-                  <Link to={`/product/${card.id}`}> <img src={require("../Assets/Quick View.svg").default} alt="quick-view.svg" className='transition-all duration-500 ease-in-out hover:rotate-[180deg]' /></Link>
+                  <Link to={`/product/${card.id}`}> <img src={require("../Assets/Quick View.svg").default} alt="quick-view.svg" className='transition-all duration-500 ease-in-out hover:rotate-[180deg]'/></Link>
                 </div>
                 <div className={card.new}>
                   <div className='bg-[#00FF66] px-[12px] py-[4px] rounded-[4px] text-[#FAFAFA] text-[12px] font-poppinReg absolute top-[12px] left-[12px]'>New</div>
