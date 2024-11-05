@@ -39,7 +39,7 @@
     },
     {
       "id":2,
-      "category": "Computer",
+      "category": "Computers",
       "title":"ASUS FHD Gaming Laptop",
       "image":"/Assets/ideapad-gaming-3i-01-500x500 1.png",
       "imgAlt":"Electric car.png",
@@ -77,7 +77,7 @@
     },
     {
       "id":4,
-      "category": "Game",
+      "category": "Gaming",
       "title":"Kids Electric Car",
       "image":"/Assets/Electric car.png",
       "imgAlt":"ideapad-gaming.png",
@@ -115,7 +115,7 @@
     },
     {
       "id":6,
-      "category": "Game",
+      "category": "Gaming",
       "title":"GP11 Shooter USB Gamepad",
       "image":"/Assets/shooter USB.png",
       "imgAlt":"shooter USB.png",
@@ -154,7 +154,7 @@
     },
     {
       "id":8,
-      "category": "Game",
+      "category": "Gaming",
       "title":"HAVIT HV-G92 Gamepad",
       "image":"/Assets/g92.png",
       "imgAlt":"g92.png",
@@ -173,7 +173,7 @@
     },
     {
       "id":9,
-      "category": "Computer",
+      "category": "Computers",
       "title":" AK-900 Wired Keyboard",
       "image":"/Assets/ak.png",
       "imgAlt":"ak.png",
@@ -192,7 +192,7 @@
     },
     {
       "id":10,
-      "category": "Computer",
+      "category": "Computers",
       "title":"IPS LCD Gaming Monitor",
       "image":"/Assets/g27.png",
       "imgAlt":"g27.png",
@@ -211,7 +211,7 @@
     },
     {
       "id":11,
-      "category": "Computer",
+      "category": "Computers",
       "title":"RGB liquid CPU Cooler ",
       "image":"/Assets/gammaxx.png",
       "imgAlt":"Gamma.png",
@@ -268,7 +268,7 @@
     },
     {
       "id":14,
-      "category": "Computer",
+      "category": "Computers",
       "title":"ASUS FHD Gaming Laptop",
       "image":"/Assets/ideapad-gaming-3i-01-500x500 1.png",
       "imgAlt":"Electric car.png",
@@ -306,7 +306,7 @@
     },
     {
       "id":16,
-      "category": "Game",
+      "category": "Gaming",
       "title":"Kids Electric Car",
       "image":"/Assets/Electric car.png",
       "imgAlt":"ideapad-gaming.png",
@@ -344,7 +344,7 @@
     },
     {
       "id":18,
-      "category": "Game",
+      "category": "Gaming",
       "title":"GP11 Shooter USB Gamepad",
       "image":"/Assets/shooter USB.png",
       "imgAlt":"shooter USB.png",

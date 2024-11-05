@@ -7,6 +7,7 @@ import Products from '../Products'
 import Customer from '../Customer'
 import Footer from '../Footer'
 import { Helmet } from 'react-helmet'
+import Common from '../Common'
 
 function Home() {
   return (
@@ -17,8 +18,7 @@ function Home() {
       <TopHeader/>
       <NavMenu/>
       <AppleOffer/>
-      <Category/>
-      <Products/>
+      <Common/>
       <Customer/>
       <Footer/>
     </div>

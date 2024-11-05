@@ -56,3 +56,25 @@ ol {
     flex-wrap: wrap;
   }
 }
+@media (max-width:1300px) {
+  .flex-direct{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .list{
+    max-width:424px;
+    height: 400px;
+  }
+  .image{
+    width: auto;
+    height: auto;
+  }
+  .img-div{
+    width: auto;
+    height: auto;
+  }
+  .pic-div{
+    height: 400px;
+  }
+}

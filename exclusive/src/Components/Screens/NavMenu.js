@@ -49,7 +49,7 @@ function NavMenu() {
                             </div>
                         </div>
                     </div>
-                    <div className={`absolute z-10 w-[100%] bg-[#fff] transition-all duration-500 ease-in-out ${active ? ' block translate-y-0 opacity-100': 'translate-y-[100%] opacity-0'}`}>
+                    <div className={`absolute z-10 w-[100%] bg-[#fff] transition-all duration-500 ease-in-out min-[700px]:hidden ${active ? ' block translate-y-0 opacity-100': 'translate-y-[100%] opacity-0'}`}>
                         <div className={`${active ? ' block': 'hidden'}`}>
                          <ul className={`flex flex-col items-center font-poppinReg font-bold gap-2 py-[20px] px-[2%] h-[-50px]`}>
                              <NavLink to="/" className='w-[100%] ' onClick={toggleMenu}><li className=' text-center hover:bg-[rgb(0,255,255)] rounded-[4px] py-[10px]'>Home</li></NavLink>
