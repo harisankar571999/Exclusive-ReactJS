@@ -41,10 +41,10 @@ function NavMenu() {
                                         <img src={require("../Assets/search.svg").default} alt="Search.svg"/>
                                     </div>
                                 <div>
-                                    <img src={require("../Assets/wishlist.svg").default} alt="wishlist.svg"/>
+                                    <Link to="/"><img src={require("../Assets/wishlist.svg").default} alt="wishlist.svg"/></Link>
                                 </div>
                                 <div>
-                                    <img src={require("../Assets/Cart.svg").default} alt="Cart.svg"/>
+                                    <Link to="/"><img src={require("../Assets/Cart.svg").default} alt="Cart.svg"/></Link> 
                                 </div>
                             </div>
                         </div>

@@ -13,9 +13,11 @@ function Footer() {
                     </div>
                     <div className='flex items-center relative'>
                         <input type="email" placeholder="Enter your email" className='bg-[#000] border-[1.5px] rounded-[4px] py-[10px] pl-[16px] font-poppinReg text-[16px] text-[#fafafa]'/>
-                        <div className='absolute right-[12px]'>
-                            <img src="../Assets/send.svg" alt="send.svg"/>
-                        </div>
+                        <Link to={'/'} className='absolute right-[12px]'>
+                            <div >
+                                <img src="../Assets/send.svg" alt="send.svg"/>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <ul className=' flex flex-col gap-[24px] max-[1100px]:items-center'>

@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {BrowserRouter as Router,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 function TopHeader() {
    
     const [show,setShow] = useState(false)
@@ -26,7 +26,7 @@ function TopHeader() {
                             <div className='flex justify-end items-center gap-x-2 cursor-pointer ' onClick={handleClick}>
                                 <span className='text-white font-poppinReg text-sm '>{language}</span>
                                 <span className={`transition-all duration-500 ease-in-out ${show ? 'rotate-180' : '' }`} >
-                                    <img src={require("../Assets/short-arrow-down.svg").default}/>
+                                    <img alt="short-arrow-down.svg" src={require("../Assets/short-arrow-down.svg").default}/>
                                 </span> 
                             </div>
                             <div className={`absolute top-[30px] z-30 transition-all duration-500 ease-in-out ${show ? 'h-[100%]' : 'h-0 overflow-hidden'}`} onClick={handleClick}>

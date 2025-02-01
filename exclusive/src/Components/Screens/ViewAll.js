@@ -1,7 +1,4 @@
 import React,{useState} from 'react'
-import TopHeader from './TopHeader'
-import NavMenu from './NavMenu'
-import Footer from './Footer'
 import View from '../JSON/Allproducts.json'
 import Products from './Products'
 import { Link } from 'react-router-dom'
@@ -64,7 +61,7 @@ const renderProducts=()=>(
   return (
     <div>
       <div className='mt-[80px] mx-auto w-[90%] font-poppinReg flex gap-[12px] items-center'>
-          <div className='text-[rgba(0,0,0,.5)]'>Home</div>
+          <div className='text-[rgba(0,0,0,.5)]'><Link to={'/'}>Home</Link></div>
           <span className='text-[rgba(0,0,0,.5)]'>/</span>
           <span className='text-[#000]'>Products</span>
       </div>
